@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+p{
+    text-align: center; 
+    font-weight: bold  
+}
+#banner{
+        width: 70%;
+        height: 90%;
+        margin: 0;
+        padding: 0;
+      }
+
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    overflow:hidden;
+    background-image: url(/img/linguagens.png);
+     
+    }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+.logo {
+    width: 150px;
+}
+.login {
+    width: 280px;
+    border: 1px solid #ccc;
+    padding: 40px 20px;
+    margin: 30px;
+    background-color: #fff;
+}
+
+.login form input {
+    width:100%;
+    height: 20px;
+    margin: 7px 0;
+    padding: 5px;
+    text-align: left;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+         
+}
+
+.login form button {
+    background-color: #0095f6;
+    color: #fff;
+    padding: 7px 10px;
+    margin: 20px 0;
+    width: 100%;
+    border: none;
+      
+}
